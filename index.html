@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation-bar</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Bootstrap Css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!---Bootstrap Js--->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+
+    <!------- Bootstrap Icons  ------>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!----------- Navigation-bar --------->
+
+    <nav class="nav-container">
+      <div class="logo">
+        <h2>Dev-signX</h2>
+      </div>
+      <ul class="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <!-------- hero-section ------>
+
+    <div id="home" class="hero-section">
+      <img src="images/boy-image.png" alt="boy-image" />
+      <div class="content">
+        <h2>Unleash Your Design Skills</h2>
+        <p>Here, We are organizing new event for all Designers</p>
+        <button class="button"><a href="#register">Register</a></button>
+      </div>
+    </div>
+
+    <!------- feature-section ------>
+
+    <div id="features" class="feautre-section">
+      <div class="feature-1 features">
+        <img src="images/feauture-images/direction-hand.jpeg" alt="feature-1" />
+        <h3>Give You Direction</h3>
+        <p>It will give you new direction to your next project</p>
+      </div>
+      <div class="feature-2 features">
+        <img src="images/feauture-images/Gift.jpeg" alt="feature-2" />
+        <h3>Many Gifts</h3>
+        <p>We have gift for winners, as well as for our participants</p>
+      </div>
+      <div class="feature-3 features">
+        <img src="images/feauture-images/new-idea.jpeg" alt="feature-3" />
+        <h3>Create New Ideas</h3>
+        <p>It will create new ideas, for your next project</p>
+      </div>
+    </div>
+
+    <!------Event-section------->
+    <div id="events" class="event-container">
+      <div class="card event-card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+          alt="Event image"
+        />
+        <div class="card-body">
+          <h5 class="card-title event-title">WebDev's Invite</h5>
+          <p class="card-text event-text">
+            Last Month, we organised an social meeting of all web developers
+            where they can share their views and ideas on new projects and
+            current projects
+          </p>
+        </div>
+      </div>
+      <div class="card event-card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZXZlbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
+          alt="Event image"
+        />
+        <div class="card-body">
+          <h5 class="card-title event-title">Lauch of new BMW</h5>
+          <p class="card-text event-text">
+            We orgainsed an launch for bmw's new car and we invite many
+            interested customers as well as all the members of bmw team
+            ofCourse, that was a good hit for our projects
+          </p>
+        </div>
+      </div>
+      <div class="card event-card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="https://images.unsplash.com/photo-1563050860-87d45eaaeabb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGV2ZW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+          alt="Event image"
+        />
+        <div class="card-body">
+          <h5 class="card-title event-title">Book Event</h5>
+          <p class="card-text event-text">
+            We invite all the book readers and as well as book writers to
+            exchange their views on books, now a days not that much people read
+            books and many more interesting topics as well
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!----- testimonial-section ----->
+
+    <div
+      id="testimonials"
+      class="carousel slide testimonials"
+      data-bs-ride="carousel"
+      data-bs-pause="hover"
+    >
+      <div class="carousel-indicators span-color">
+        <button
+          type="button"
+          data-bs-target="#testimonials"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#testimonials"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active testimonial-1">
+          <img src="images/testimonial-images/dog-img.jpg" alt="profile-img" />
+          <div class="testimonial-content">
+            <p>The Jack, america</p>
+            <h2>Creative Ideologies</h2>
+            <p>
+              I will come to see many creative mind peoples and eager to see
+              their hardwork and creativity
+            </p>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonials"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon navigators"></span>
+        </button>
+        <div class="carousel-item testimonial-2">
+          <img src="images/testimonial-images/lady-img.jpg" alt="profile-img" />
+          <div class="testimonial-content">
+            <p>Jessica, Portugal</p>
+            <h2>Excited, about Event</h2>
+            <p>
+              I'm so excited about this event, because I will participate and
+              hope I will win gifts from it
+            </p>
+          </div>
+        </div>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonials"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <footer>
+      <div id="about" class="footer-section">
+        <div class="left">
+          <p><i class="bi bi-house icon"></i>Dev-signX Organistion India</p>
+          <p><i class="bi bi-telephone icon"></i>+918293XXXXXXX</p>
+          <p><i class="bi bi-envelope-at icon"></i>devsignx@gmail.com</p>
+        </div>
+        <div class="right">
+          <h4>About Us.</h4>
+          <p>
+            This is an Organistion, Which helps many organisations and companies
+            to organise their meetings, launches and parties and We also
+            Organise some creative events that helps a lot of peoples to find
+            their ways.
+          </p>
+          <div>
+            <a href="#facebook"><i class="bi bi-facebook icon"></i></a>
+            <a href="#twitter"><i class="bi bi-twitter icon"></i></a>
+            <a href="#linkedIn"><i class="bi bi-linkedin icon"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright"><p>copyright @Web-signX 2023</p></div>
+    </footer>
+  </body>
+</html>
